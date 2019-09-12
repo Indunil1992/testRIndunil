@@ -8,7 +8,7 @@ exports.handler = function (event, context, callback) {
     rds.beginTransaction({
         instanceIdentifier: 'DBByIndunil'
     }, function (error, connection) {
-         console.log("passss");
+         console.log("pass");
           console.log(connection);
         if (error) {
             console.log("Error");
